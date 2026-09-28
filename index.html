@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>SunCast: Sunrise &amp; Sunset Forecast</title>
+  <meta name="description" content="SunCast tells you if the next sunrise or sunset is worth going outside for, with one simple 0–100% score. For iPhone.">
+  <meta name="theme-color" content="#fbd9c4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#3b1d55" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./"><img src="icon.svg" alt="" width="36" height="36">SunCast</a>
+      <nav class="nav glass" aria-label="Main">
+        <a href="./" aria-current="page">Home</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap">
+      <div class="hero">
+        <div>
+          <img class="app-icon" src="icon.svg" alt="SunCast app icon: a pale sun setting behind the horizon under a pink and purple sky" width="88" height="88">
+          <h1>Is tonight's sunset worth it?</h1>
+          <p class="lede">SunCast reads the clouds, haze and rain and gives the next sunrise or sunset one simple score from 0 to 100%.</p>
+          <div class="coming-soon" role="note" aria-label="Coming soon to iOS">
+            <span class="small">Coming soon to</span>
+            <span class="big">iPhone</span>
+          </div>
+          <p class="req">Requires iOS 26 or later.</p>
+        </div>
+
+        <div class="score-card glass" role="img" aria-label="Example forecast card: Sunset tonight, 82 percent, Don't miss it. Golden hour from 6:34 PM. Broken high cloud, a good canvas.">
+          <p class="label">Sunset · Tonight</p>
+          <p class="score">82<span>%</span></p>
+          <p class="verdict">Don't miss it.</p>
+          <p class="meta">
+            <span>Golden hour from 6:34 PM</span>
+            <span>Broken high cloud. Good canvas.</span>
+          </p>
+          <p class="caption">Example forecast</p>
+        </div>
+      </div>
+
+      <section aria-labelledby="features-title">
+        <h2 id="features-title">Everything you need to catch the light</h2>
+        <div class="features">
+          <article class="feature glass">
+            <h3>One number</h3>
+            <p>A 0–100% score for every sunrise and sunset over the next few days. No weather maps to decode.</p>
+          </article>
+          <article class="feature glass">
+            <h3>See the why</h3>
+            <p>Tap a forecast to see what moved the score: high cloud to catch the colour, low cloud blocking the horizon, rain, haze and more.</p>
+          </article>
+          <article class="feature glass">
+            <h3>Golden hour times</h3>
+            <p>Sunrise, sunset and golden hour, calculated for exactly where you are.</p>
+          </article>
+          <article class="feature glass">
+            <h3>Widgets</h3>
+            <p>See the next sky at a glance on your Home Screen or Lock Screen.</p>
+          </article>
+          <article class="feature glass">
+            <h3>A heads-up when it counts</h3>
+            <p>Optional alerts before golden hour, only when the score passes the threshold you choose.</p>
+          </article>
+          <article class="feature glass">
+            <h3>Private by design</h3>
+            <p>No account, no ads, no tracking. Your location is used only to fetch your forecast. <a href="privacy.html">Read the privacy policy</a>.</p>
+          </article>
+        </div>
+      </section>
+
+      <section aria-labelledby="bands-title">
+        <h2 id="bands-title">How to read the score</h2>
+        <ul class="bands">
+          <li class="glass"><span>Don't miss it.</span><b>80–100%</b></li>
+          <li class="glass"><span>Worth a look.</span><b>60–79%</b></li>
+          <li class="glass"><span>Could be nice.</span><b>40–59%</b></li>
+          <li class="glass"><span>Probably flat.</span><b>20–39%</b></li>
+          <li class="glass"><span>Skip it.</span><b>0–19%</b></li>
+        </ul>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav aria-label="Footer">
+        <a href="./">Home</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </nav>
+      <p><a href="https://open-meteo.com/">Weather data by Open-Meteo.com</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+      <p>© 2026 Omar Saraireh. iPhone is a trademark of Apple Inc. This site uses no cookies, analytics or trackers.</p>
+    </div>
+  </footer>
+</body>
+</html>

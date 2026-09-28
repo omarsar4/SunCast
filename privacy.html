@@ -1,0 +1,157 @@
+<!doctype html>
+<!--
+  NOTE FOR OMAR (not shown on the page): This policy was drafted from a review of the SunCast
+  source code on 2026-09-27. It is not legal advice. Please review it yourself (and with a lawyer
+  if you want certainty) before publishing, and update it whenever the app's data handling changes.
+-->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>SunCast Privacy Policy</title>
+  <meta name="description" content="How SunCast handles your location and data. No account, no ads, no tracking.">
+  <meta name="theme-color" content="#fbd9c4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#3b1d55" media="(prefers-color-scheme: dark)">
+  <link rel="icon" href="icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="apple-touch-icon.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="./"><img src="icon.svg" alt="" width="36" height="36">SunCast</a>
+      <nav class="nav glass" aria-label="Main">
+        <a href="./">Home</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html" aria-current="page">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="doc">
+    <div class="wrap prose">
+      <article class="glass">
+        <h1>Privacy Policy</h1>
+        <p class="updated">SunCast · Effective and last updated September 27, 2026</p>
+
+        <div class="summary-box">
+          <strong>The short version</strong>
+          <ul>
+            <li>SunCast has no account and no sign-in. The developer runs no server and receives none of your data.</li>
+            <li>Your location is used only to get the forecast for where you are. It is sent to the weather service Open-Meteo and to Apple, and nowhere else.</li>
+            <li>No ads, no analytics, no tracking across apps or websites, and your data is never sold.</li>
+          </ul>
+        </div>
+
+        <h2 id="who">Who we are</h2>
+        <p>SunCast is made by Omar Saraireh, an independent developer based in Canada ("we", "us"). If you have any question about this policy or your data, email <a href="mailto:omorasaraira@gmail.com">omorasaraira@gmail.com</a>.</p>
+
+        <h2 id="data">What SunCast uses and why</h2>
+
+        <h3>Your location</h3>
+        <p>If you allow it, SunCast reads your location to forecast the sky where you are and to calculate your local sunrise, sunset and golden hour.</p>
+        <ul>
+          <li><strong>Only while you use the app.</strong> SunCast asks for "While Using the App" access. It takes a single reading when it needs one and does not track you continuously or read your location in the background.</li>
+          <li><strong>Approximate is enough.</strong> SunCast only needs your position to within about a kilometre, so it works fine if you turn off Precise Location.</li>
+          <li><strong>It's optional.</strong> You can say no and search for a city instead.</li>
+        </ul>
+
+        <h3>Where your location goes</h3>
+        <ul>
+          <li><strong>Open-Meteo (weather data).</strong> To get your forecast, the app sends your coordinates (latitude and longitude, rounded to 4 decimal places) to Open-Meteo's forecast and air-quality services. No name, account, device ID or other identifier is sent with them. Like any website or service you connect to, Open-Meteo also sees your device's IP address.</li>
+          <li><strong>Apple (place names and city search).</strong> SunCast uses Apple's MapKit to turn your coordinates into a place name such as "Lisbon", and to look up cities you type into search. Apple processes these requests under its own privacy policy.</li>
+        </ul>
+        <p>If you pick a city instead, the same thing happens with that city's coordinates.</p>
+
+        <h3>What stays on your device</h3>
+        <ul>
+          <li>The last place you viewed (its name, coordinates and time zone) and its forecast, so the app opens instantly and the widgets can show the same scores.</li>
+          <li>Your heads-up settings (whether alerts are on, your score threshold and whether you want sunrise alerts).</li>
+        </ul>
+        <p>This information is stored only on your iPhone. We never receive it.</p>
+
+        <h3>Notifications</h3>
+        <p>Heads-up alerts are off by default. If you turn them on, SunCast asks for notification permission and schedules the alerts <em>on your device</em>. There is no push server, and we never receive your notification settings.</p>
+
+        <h3>Background refresh</h3>
+        <p>If Background App Refresh is on, SunCast refreshes the forecast for your last saved place about every two hours, so your widgets and alerts stay current. The widgets can also refresh the forecast themselves if the app hasn't in a while. This sends that place's coordinates to Open-Meteo, as described above. It does not read your location in the background.</p>
+
+        <h2 id="third-parties">Third-party services</h2>
+        <div class="table-scroll">
+          <table>
+            <thead><tr><th scope="col">Service</th><th scope="col">What it receives</th><th scope="col">Its privacy information</th></tr></thead>
+            <tbody>
+              <tr>
+                <td>Open-Meteo (weather and air-quality forecasts)</td>
+                <td>Coordinates of your location or chosen city; your IP address</td>
+                <td><a href="https://open-meteo.com/en/terms">Open-Meteo terms and privacy</a></td>
+              </tr>
+              <tr>
+                <td>Apple MapKit (place names, city search)</td>
+                <td>Coordinates; city names you type</td>
+                <td><a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- VERIFY: Open-Meteo's terms (checked 2026-09-27) say coordinates in its server logs are kept for 90 days, not shared, and IP addresses are used only for maintenance and preventing misuse. Recheck if Open-Meteo updates its terms. -->
+        <p>Open-Meteo says it keeps server logs, including requested coordinates, for 90 days and does not share them with third parties.</p>
+
+        <h2 id="not-collected">What we don't do</h2>
+        <ul>
+          <li>No account, sign-in or personal profile.</li>
+          <li>No advertising and no ad networks.</li>
+          <li>No analytics, crash-reporting or tracking software.</li>
+          <li>No tracking across other companies' apps or websites.</li>
+          <li>We never sell, rent or trade your data.</li>
+        </ul>
+        <p>If you choose to share diagnostics with app developers in your iPhone's settings, Apple may give us anonymous crash reports and usage statistics. You can change this in Settings &gt; Privacy &amp; Security &gt; Analytics &amp; Improvements.</p>
+
+        <h2 id="retention">How long data is kept, and deleting it</h2>
+        <ul>
+          <li><strong>On your device:</strong> the saved place, forecast and settings stay until you change them or delete SunCast. Deleting the app (and its widgets) removes all of it.</li>
+          <li><strong>With us:</strong> nothing. We have no server and store no data about you.</li>
+          <li><strong>With Open-Meteo:</strong> as described above, their server logs are kept for up to 90 days.</li>
+        </ul>
+
+        <h2 id="permissions">Permissions and how to turn them off</h2>
+        <ul>
+          <li><strong>Location:</strong> Settings &gt; Privacy &amp; Security &gt; Location Services &gt; SunCast. Choose "Never" or turn off Precise Location.</li>
+          <li><strong>Notifications:</strong> Settings &gt; Notifications &gt; SunCast, or turn off "Give me a heads-up" in the app.</li>
+          <li><strong>Background App Refresh:</strong> Settings &gt; General &gt; Background App Refresh &gt; SunCast.</li>
+        </ul>
+
+        <h2 id="children">Children's privacy</h2>
+        <p>SunCast is suitable for all ages but is not directed at children. We do not knowingly collect personal information from anyone, including children under 13 (or the minimum age in your country). Because the app has no account and we receive no data, there is no personal information about a child for us to hold. If you think a child has sent us personal information by email, contact us and we'll delete it.</p>
+
+        <h2 id="rights">Your rights</h2>
+        <p>Depending on where you live, laws such as Canada's PIPEDA, the EU and UK GDPR and California's CCPA give you rights over your personal information, including to access it, correct it, delete it, or object to how it is used. Because SunCast doesn't send us any of your data, we usually have nothing to access or delete, but we'll gladly answer any question. Email <a href="mailto:omorasaraira@gmail.com">omorasaraira@gmail.com</a> and we'll reply within 30 days.</p>
+        <p>For data held by Open-Meteo or Apple, please contact them using the links above. You may also complain to your local data protection authority, such as the <a href="https://www.priv.gc.ca/">Office of the Privacy Commissioner of Canada</a>.</p>
+
+        <h2 id="website">This website</h2>
+        <p>This website uses no cookies, analytics, trackers or third-party scripts. It is hosted on GitHub Pages, and GitHub may log visitors' IP addresses for security purposes; see the <a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>.</p>
+
+        <h2 id="changes">Changes to this policy</h2>
+        <p>If SunCast's data practices change, we'll update this page and the date at the top before the change takes effect. For significant changes, we'll also mention it in the app's release notes on the App Store.</p>
+
+        <h2 id="contact">Contact</h2>
+        <p>Omar Saraireh · <a href="mailto:omorasaraira@gmail.com">omorasaraira@gmail.com</a></p>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <nav aria-label="Footer">
+        <a href="./">Home</a>
+        <a href="support.html">Support</a>
+        <a href="privacy.html">Privacy Policy</a>
+      </nav>
+      <p><a href="https://open-meteo.com/">Weather data by Open-Meteo.com</a>, licensed under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>.</p>
+      <p>© 2026 Omar Saraireh. iPhone is a trademark of Apple Inc. This site uses no cookies, analytics or trackers.</p>
+    </div>
+  </footer>
+</body>
+</html>
